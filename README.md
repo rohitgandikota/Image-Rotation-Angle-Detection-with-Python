@@ -1,5 +1,5 @@
 # Image-Rotation-Angle-Detection-with-Python
-This code `rotationDetect.py` can be used for finding the angle that the image has been rotated by. Especially it is tested on satellite data where geo-referencing rotates the image (as shown in images below).
+This code `rotationDetect.py` can to used to find the angle of rotation in an image. Especially, it has been designed for satellite data where geo-referencing rotates the image (as shown in images below).
 
 ```angle, rotated_list = getAngleofRotation(path, return_images=True, img_list=['<path>/img1.tif','<path>/img2.tif','<path>/img3.tif'])``` can be used to find the angle and rotate the image back to the straights. <br>
 
